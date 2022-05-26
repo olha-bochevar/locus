@@ -172,11 +172,26 @@ h6 {
     font-weight: 400;
     
 }
-
- .menu__link:hover, .menu__link_active{
+/*.menu__link::after{
+    content: '';
+      display: block;
+      height: 4px;
+      background: #FEC62D;
+      width: 35px;
+      margin: 0 auto;
+}*/
+.menu__link:hover, .menu__link_active{
     font-weight: 700;
     color: #58A9A5;
-     border-bottom: 4px solid #FEC62D;
+}
+ .menu__link:hover::after, .menu__link_active::after{
+    
+    content: '';
+    display: block;
+    height: 4px;
+    background: #FEC62D;
+    width: 35px;
+    margin: 0 auto;
 }
 .header__button{
     
@@ -257,3 +272,5 @@ h6 {
         width: 80%;
     }
 }
+
+/*---------------------------------------------------------------------*/
