@@ -23,10 +23,10 @@
                 </div>
                 <nav class="header__menu menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Location</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">About Us</a></li>
+                        <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+                        <li class="menu__item"><a href="#contactus" class="menu__link">Contact</a></li>
+                        <li class="menu__item"><a href="#ourproject" class="menu__link">Location</a></li>
+                        <li class="menu__item"><a href="#howitworks" class="menu__link">About Us</a></li>
                     </ul>
                 </nav>
                 <div class="header__button">
@@ -35,7 +35,7 @@
             </div>
         </header>
         <main class="page">
-            <section class="page__main-block main-block">
+            <section class="page__main-block main-block" id="home">
                 <div class="main-block__container _container">
                     <div class="main-block__content-text">
                         <h1 class="main-block__title title">Get the inspiration of interior design here</h1>
@@ -54,9 +54,9 @@
                 </div>
 
             </section>
-            <section class="page__howitworks howitworks">
+            <section class="page__howitworks howitworks" id="howitworks">
                 <div class="howitworks__container _container">
-                    <h1 class="howitworks__title title">How it works</h1>
+                    <h2 class="howitworks__title title">How it works</h2>
                     <div class="howitworks__subtitle">Spice up your space even simpler</br>
                         than you think</div>
                     <div class="howitworks__content-video">
@@ -89,13 +89,13 @@
                     </div>
                 </div>
             </section>
-            <section class="page__ourproject ourproject">
+            <section class="page__ourproject ourproject" id="ourproject">
                 <div class="ourproject__container _container">
-                    <h1 class="ourproject__title title">Our project</h1>
+                    <h2 class="ourproject__title title">Our project</h2>
                     <div class="ourproject__subtitle">Introducing our first official project</div>
                     <div class="ourproject__lines">
-                        <hr class="ourproject__line">
-                        <hr class="ourproject__line">
+                        <hr class="ourproject__line line">
+                        <hr class="ourproject__line line">
                     </div>
                     <div class="ourproject__item item">
                         <div class="item first-item">
@@ -127,6 +127,70 @@
                             <div class="item__image"><img src="img/ourproject/room03.jpeg" alt="room3"></div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section class="page__testimonial testimonial">
+                <div class="testimonial__container _container">
+                    <h2 class="testimonial__title title">Testimonial</h2>
+                    <div class="testimonial__brands">
+                        <div class="testimonial__img-logo">
+                        <img src="img/testimonial/01klamby.jpeg" alt="K.L.A.M.B.Y."></div>
+                        <div class="testimonial__img-logo">
+                        <img src="img/testimonial/02mayyoutfit.jpeg" alt="Mayoutfit"></div>
+                        <div class="testimonial__img-logo">
+                        <img src="img/testimonial/03zalora.jpeg" alt="ZALORA"></div>
+                        <div class="testimonial__img-logo">
+                        <img src="img/testimonial/04geulis.jpeg" alt="Geulis"></div>
+                    </div>
+                    <div class="testimonial__info">
+                        <div class="testimonial__image">
+                            <img src="img/testimonial/work-results.jpeg" alt="girl">
+                        </div>
+                        <div class="testimonial__work-results">
+                            <div class="testimonial__results results-item">
+                                <div class="item-result">
+                                    <p class="item-result__count">105</p>
+                                    <p>project done</p>
+                                </div>
+                                <div class="item-result">
+                                    <p class="item-result__count">12</p>
+                                    <p>years of experience</p>
+                                </div>
+                                <div class="item-result">
+                                    <p class="item-result__count">10+</p>
+                                    <p>big company parthnership</p>
+                                </div>
+                            </div>
+                            <div class="testimonial__text">
+                                <p class="testimonial__quote">“</p>
+                                <p class="testimonial__quote-content">"Not able to tell you how happy I am with interior design. 
+                                    Interior design has completely surpassed our expectations. 
+                                    Interior design saved my business. Interior design is worth 
+                                    much more than I paid."
+                                    </p>
+                                <p class="testimonial__quote-author">- Roscoe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__contactus contactus" id="contactus">
+                <div class="contactus__container _container">
+                    <div class="contactus__text">
+                        <h2 class="contactus__title title">Contact Us</h2>
+                        <div class="contactus__question">Have any questions? Want help
+                            before getting started?</div>
+                        <div class="contactus__lines">
+                            <hr class="contactus__line line">
+                            <hr class="contactus__line line">
+                        </div>
+                    </div>
+                    <form action="#" class="contactus__form">
+                        <input type="text" placeholder="Full name"  required class="contactus__input"/>
+                        <input type="email" placeholder="Email address" required class="contactus__input"/>
+                        <input type="text" placeholder="Description" required class="contactus__input contactus__input_description"/>
+                        <button class="contactus__button button" type="submit" name="contactus__send-question">Send now</button>
+                    </form>
                 </div>
             </section>
         </main>
