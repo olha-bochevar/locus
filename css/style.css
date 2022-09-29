@@ -129,7 +129,7 @@ h6 {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100vw;
     height: 100vh;
-    padding-top: 180px;
+    
     position: fixed;
     z-index: 999;
 }
@@ -139,7 +139,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: auto;
+    margin: 180px auto auto auto;
     background-color: #ffffff;
 }
 
@@ -223,8 +223,8 @@ h6 {
     padding-top: 25px;}
 }
 @media (max-width:680px){
-    .signup{
-        padding-top: 130px;
+    .signup__container{
+        margin-top: 90px;
     }
     .signup__input{
         font-size:17.75px;
@@ -237,8 +237,8 @@ h6 {
     }
 }
 @media (max-width:480px){
-    .signup{
-        padding-top: 90px;
+    .signup__container{
+        margin-top: 90px;
     }
     .signup__input{
         font-size:16.75px;
