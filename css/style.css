@@ -237,6 +237,9 @@ h6 {
     }
 }
 @media (max-width:480px){
+    .signup{
+        padding-top: 90px;
+    }
     .signup__input{
         font-size:16.75px;
     }
