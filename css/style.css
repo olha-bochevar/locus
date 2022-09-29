@@ -210,6 +210,37 @@ h6 {
     display: none;
 }
 
+
+
+@media (max-width:871px) {
+    .signup__container {
+        width: 90%;}
+    .signup__form {
+        height: 65vh;
+        justify-content: space-evenly;
+}
+.signup__input {
+    padding-top: 25px;}
+}
+@media (max-width:680px){
+    .signup__input{
+        font-size:17.75px;
+    }
+    .signup__close{
+        width:25px;
+    }
+    .signup__button button{
+        font-size:17px;
+    }
+}
+@media (max-width:480px){
+    .signup__input{
+        font-size:16.75px;
+    }
+    .signup__button{
+        font-size:16px;
+    }
+}
 /*---------------------------------HEADER------------------------------------*/
 .header {}
 
@@ -415,7 +446,6 @@ h6 {
     line-height: calc(28/18*100%);
     max-width: 200px;
     height: 60px;
-
     text-align: center;
 }
 
@@ -540,7 +570,7 @@ h6 {
         height: 100%;
     }
 
-    .button {
+    .main-block__button {
         margin: 0 auto;
     }
 
