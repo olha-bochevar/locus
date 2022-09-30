@@ -36,7 +36,7 @@ function checkUserPhone(){
 
 btnSignUp.addEventListener('click', () =>{
     containerSignUp.classList.remove('d-none');
-    formSignUp.signup__submit.value = "Sign Up"
+    formSignUp.signup__submit.value = "Call me"
     clearInputs();
 });
 btmCloseFormSignUp.addEventListener('click', () =>{
