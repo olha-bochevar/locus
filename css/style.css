@@ -320,6 +320,7 @@ h6 {
     .menu__link {
         color: #404242;
         font-weight: 400;
+        transition:  font-weight 200ms linear 0s, color 500ms ease 0s;
     }
 
     .menu__link:hover,
@@ -329,23 +330,18 @@ h6 {
     }
 
     .menu__link::after {
-
         content: '';
         display: block;
         height: 4px;
         background: #ffffff;
         width: 35px;
         margin: 0 auto;
+        transition: background 1s ease-in-out 0s;
     }
 
     .menu__link:hover::after {
-
-        content: '';
-        display: block;
-        height: 4px;
         background: #FEC62D;
-        width: 35px;
-        margin: 0 auto;
+        
     }
 
     .header__button {
