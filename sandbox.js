@@ -56,7 +56,6 @@ formSignUp.addEventListener('submit', e=>{
     if(checkUserName() && checkUserPhone()){
        formSignUp.signup__submit.value= "OK!";
        setTimeout(closeFormSignUp, 1000);
-       btnSignUpLink.textContent="Log In";
     };
     
 });
